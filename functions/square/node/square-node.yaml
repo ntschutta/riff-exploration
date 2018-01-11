@@ -1,15 +1,15 @@
 apiVersion: projectriff.io/v1
 kind: Topic
 metadata:
-  name: square-topic
+  name: square-node-topic
 ---
 
 apiVersion: projectriff.io/v1
 kind: Function
 metadata:
-  name: square-node
+  name: square-node-function
 spec:
   protocol: http
-  input: square-topic
+  input: square-node-topic
   container:
     image: projectriff/square-node:0.0.1
