@@ -27,10 +27,20 @@ Call the Function
 ---
 To call the function:
 ```
-curl $GATEWAY/requests/square-topic -H "$HEADER" -d 8
+curl $GATEWAY/requests/square-node-topic -H "$HEADER" -d 8
 ```
 
 Which will return:
 ```
 8 squared is 64
+```
+Cleaning Up
+---
+Done squaring numbers? I know it's hard to imagine such a time but it will happen. Remove your function by calling:
+```
+riff delete -n square-node-function
+```
+And delete your queue by calling:
+```
+kubectl delete topic square-node-topic
 ```
