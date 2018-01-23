@@ -5,9 +5,8 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
-class RiffSquaredApplicationTest {
-
-    private RiffSquaredApplication app = new RiffSquaredApplication();
+class RiffSquaredTest {
+    private RiffSquared app = new RiffSquared();
 
     @Test
     void squareOf2Is4() {
