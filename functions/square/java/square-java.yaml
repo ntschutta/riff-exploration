@@ -1,0 +1,15 @@
+apiVersion: projectriff.io/v1
+kind: Topic
+metadata:
+  name: square-java-topic
+---
+
+apiVersion: projectriff.io/v1
+kind: Function
+metadata:
+  name: square-java-function
+spec:
+  protocol: http
+  input: square-java-topic
+  container:
+    image: projectriff/square-java:0.0.1
