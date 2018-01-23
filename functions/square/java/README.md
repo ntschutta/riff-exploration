@@ -40,9 +40,9 @@ Cleaning Up
 ---
 Done squaring numbers? I know it's hard to imagine such a time but it will happen. Remove your function by calling:
 ```
-riff delete -n square-node-function
+riff delete -n square-java-function
 ```
 And delete your queue by calling:
 ```
-kubectl delete topic square-node-topic
+kubectl delete topic square-java-topic
 ```
