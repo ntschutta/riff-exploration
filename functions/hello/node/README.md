@@ -27,7 +27,7 @@ Call the Function
 ---
 To call the function:
 ```
-curl $GATEWAY/requests/square-node-topic -H "$HEADER" -d "Han"
+curl $GATEWAY/requests/hello-node-topic -H "$HEADER" -d "Han"
 ```
 
 Which will return:
