@@ -16,7 +16,7 @@ Build the Function
 ```
 mvn install
 mvn package
-riff build -n square-java -v 0.0.1 -f .
+riff build -n hello-java -v 0.0.1 -f .
 ```
 
 Apply the Function
@@ -40,9 +40,9 @@ Cleaning Up
 ---
 Done saying Hello? I know it's hard to imagine such a time but it will happen. Remove your function by calling:
 ```
-riff delete -n square-java-function
+riff delete -n hello-java-function
 ```
 And delete your queue by calling:
 ```
-kubectl delete topic square-java-topic
+kubectl delete topic hello-java-topic
 ```
