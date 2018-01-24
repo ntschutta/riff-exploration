@@ -1,5 +1,5 @@
 # hello-node
-Take input (say like a name), return "Hello <input>". Couldn't be easier right?
+Take input (say like a name), return "Hello " plus the input, otherwise known as Hello World. Couldn't be easier right?
 
 ## Setup
 This demo assumes your riff environment is setup per Brian McClain's [riff-demos](https://github.com/BrianMMcClain/riff-demos) shell script or via the instructions found on the [riff project](https://github.com/projectriff/riff) itself.
