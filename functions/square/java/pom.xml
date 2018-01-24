@@ -47,7 +47,7 @@
 	<packaging>jar</packaging>
 
 	<name>riff-squared</name>
-	<description>Demo riff/Spring Boot project</description>
+	<description>Demo riff project</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
