@@ -1,0 +1,15 @@
+apiVersion: projectriff.io/v1
+kind: Topic
+metadata:
+  name: hello-java-topic
+---
+
+apiVersion: projectriff.io/v1
+kind: Function
+metadata:
+  name: hello-java-function
+spec:
+  protocol: http
+  input: hello-java-topic
+  container:
+    image: projectriff/hello-java:0.0.1
